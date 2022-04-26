@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="190dp"
     android:layout_height="wrap_content"
-    android:padding="20dp">
+    android:orientation="vertical"
+    android:padding="40dp">
 
     <ImageView
-        android:src="@drawable/ic_icons8_twitter_480"
+        android:layout_gravity="center"
         android:id="@+id/img_profile"
-        android:layout_width="60dp"
-        android:layout_height="60dp"/>
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_icons8_twitter_480" />
 
     <TextView
         android:id="@+id/tv_fullname"
+        android:layout_gravity="center"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="20dp"
-        android:padding="0dp"
         android:text="PDP Academy"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:textSize="15sp" />
 
 
 </LinearLayout>

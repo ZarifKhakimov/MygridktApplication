@@ -23,9 +23,17 @@ class GridActivity : AppCompatActivity(){
 
         val members = ArrayList<Member>()
         members.add(Member(R.drawable.ic_icons8_twitter_480, "Xurshidbek"))
-        members.add(Member(R.drawable.ic_icons8_twitter_480, "Begzodbek"))
+        members.add(Member(R.drawable.belka, "Begzodbek"))
+        members.add(Member(R.drawable.cat1, "Xurshidbek"))
+        members.add(Member(R.drawable.belka2, "Begzodbek"))
         members.add(Member(R.drawable.ic_icons8_twitter_480, "Xurshidbek"))
-        members.add(Member(R.drawable.ic_icons8_twitter_480, "Begzodbek"))
+        members.add(Member(R.drawable.belka, "Begzodbek"))
+        members.add(Member(R.drawable.cat1, "Xurshidbek"))
+        members.add(Member(R.drawable.belka2, "Begzodbek"))
+        members.add(Member(R.drawable.ic_icons8_twitter_480, "Xurshidbek"))
+        members.add(Member(R.drawable.belka, "Begzodbek"))
+        members.add(Member(R.drawable.cat1, "Xurshidbek"))
+        members.add(Member(R.drawable.belka2, "Begzodbek"))
 
         refreshAdapter(members)
     }
